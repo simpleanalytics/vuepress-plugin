@@ -2,7 +2,7 @@
 
 export default ({ router }) => {
   // Simple Analytics integration
-  if (process.env.NODE_ENV !== "production" && typeof window !== "undefined") {
+  if (process.env.NODE_ENV === "production" && typeof window !== "undefined") {
     (function(s, i, m, p, l, e) {
       s[eventsGlobal] =
         s[eventsGlobal] ||
@@ -30,5 +30,7 @@ export default ({ router }) => {
       e = i.getElementsByTagName(p)[0];
       e.parentNode.insertBefore(l, e);
     })(window, document, navigator, "script");
+  } else {
+    return console.warn("Simple Analytics: Not loading script in development");
   }
 };
