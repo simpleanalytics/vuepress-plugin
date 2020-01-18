@@ -1,0 +1,35 @@
+{
+  "name": "vuepress-plugin-simple-analytics",
+  "version": "1.0.0",
+  "description": "Script to collect analytics for Simple Analytics",
+  "main": "index.js",
+  "homepage": "https://simpleanalytics.com/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpleanalytics/vuepress-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simpleanalytics/vuepress-plugin/issues"
+  },
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "vuepress-plugin",
+    "plugin",
+    "simple analytics",
+    "simple-analytics",
+    "simpleanalytics",
+    "analytics"
+  ],
+  "author": "Simple Analytics",
+  "license": "MIT"
+}
