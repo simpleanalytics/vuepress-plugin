@@ -6,11 +6,10 @@ export default ({ router }) => {
     (function(s, i, m, p, l, e) {
       s[eventsGlobal] =
         s[eventsGlobal] ||
-        function() {
-          var a = [].slice.call(arguments);
-          [eventsGlobal].q
-            ? [eventsGlobal].q.push(a)
-            : ([eventsGlobal].q = [a]);
+        function(a) {
+          s[eventsGlobal].q
+            ? s[eventsGlobal].q.push(a)
+            : (s[eventsGlobal].q = [a]);
         };
 
       const dnt = s.doNotTrack || m.doNotTrack || m.msDoNotTrack;

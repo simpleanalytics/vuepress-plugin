@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-simple-analytics",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Script to collect analytics for Simple Analytics",
   "main": "index.js",
   "homepage": "https://simpleanalytics.com/",
