@@ -15,7 +15,7 @@
     "url": "https://github.com/simpleanalytics/vuepress-plugin/issues"
   },
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
