@@ -8,7 +8,7 @@ module.exports = (options = {}, context) => ({
       siteConfig.customDomain ||
       "scripts.simpleanalyticscdn.com";
     const eventsGlobal =
-      options.eventsGlobal || siteConfig.eventsGlobal || "sa";
+      options.eventsGlobal || siteConfig.eventsGlobal || "sa_event";
     const skipDnt = options.skipDnt || siteConfig.skipDnt || false;
     return { domain, eventsGlobal, skipDnt };
   },
