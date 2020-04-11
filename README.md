@@ -31,7 +31,7 @@ module.exports = {
       "vuepress-plugin-simple-analytics",
       {
         customDomain: "data.example.com", // You custom domain
-        eventsGlobal: "sa", // The global events object for sa("click_button")
+        eventsGlobal: "sa_event", // The global events object for sa_event("click_button")
         skipDnt: true // When set to true you track the DNT users
       }
     ]
