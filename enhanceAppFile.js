@@ -24,7 +24,8 @@ export default ({ router }) => {
       l.async = "true";
       l.src = `https://${domain}/latest.js`;
       l.type = "text/javascript";
-      if (eventsGlobal && eventsGlobal !== "sa")
+      l.setAttribute("data-skip-dnt", "true");
+      if (eventsGlobal && eventsGlobal !== "sa_event")
         l.setAttribute("data-sa-global", eventsGlobal);
       e = i.getElementsByTagName(p)[0];
       e.parentNode.insertBefore(l, e);
